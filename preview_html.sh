@@ -1,3 +1,5 @@
+#!/bin/sh
+
 export LANG="$(defaults read -g AppleLocale).UTF-8" ;
 clip=`pbpaste`;
 
